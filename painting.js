@@ -2,7 +2,7 @@ var file_list=[
     "01_RT16.jpg",
     "14_RT16.jpg",
     "A Boat.jpg",
-    "Face.tif",
+    "Face.jpg",
 
 ]
 var c1=document.getElementById('c1');
