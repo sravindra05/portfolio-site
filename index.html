@@ -11,7 +11,7 @@
             display: flex;
             min-height: 100vh;
             flex-direction: column;
-            background: url("assets/imgs/img6.jpg") no-repeat center center fixed;
+            background: url("assets/imgs/trial.jpg") no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -38,10 +38,22 @@
 
         .title {
             padding-left: 0.5 rem;
+           
         }
 
         .nav-wrapper{
             height: 100px !important;
+        }
+        .carousel{
+            height: 500px;
+        }
+        .carousel-item{
+            height: 27.5rem !important;
+            width: 20rem !important;
+        }
+        .disp{
+            margin-top: 5rem;
+            margin-bottom: 5rem;
         }
     </style>
     <title>Kanchana Kampli | Home</title>
@@ -57,10 +69,10 @@
                     </span></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="black title"><a href="about.html">About</a></li>
-                    <li class="black title"><a href="painting.html">Paintings</a></li>
-                    <li class="black title"><a href="portrait.html">Portraits</a></li>
-                    <li class="black title"><a href="contact.html">Contact</a></li>
+                    <li class="black title white-text"><a href="about.html">About</a></li>
+                    <li class="black title white-text"><a href="painting.html">Paintings</a></li>
+                    <li class="black title white-text"><a href="portrait.html">Portraits</a></li>
+                    <li class="black title white-text"><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -74,14 +86,14 @@
         </ul>
     </header>
     <main class="valign-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 l12 card black">
-                    <p style="font-size: 1.6rem;" class="center title white-text">Artist - Portraits - Paintings</p>
-                    <div class=" col s12 carousel title">
-                        <a class="carousel-item" href="#one!"><img src="assets/paintings/painting1.jpg"></a>
-                        <a class="carousel-item" href="#five"><img src="assets/portraits/portrait3.jpg"></a>
+        <div class=" container">
+            <div class=" row">
+                <div class="col s12 l12 card black disp ">
+                    <p style="font-size: 2rem;" class="center title white-text">Artist - Portraits - Paintings</p>
+                    <div class="valign-wrapper col s12 carousel">
                         <a class="carousel-item" href="#two!"><img src="assets/paintings/painting4.jpg"></a>
+                        <a class="carousel-item" href="#five"><img src="assets/portraits/portrait3.jpg"></a>
+                        <a class="carousel-item" href="#one!"><img src="assets/paintings/painting1.jpg"></a>
                         <a class="carousel-item" href="#four"><img src="assets/portraits/portrait5.jpg"></a>
                         <a class="carousel-item" href="#thre"><img src="assets/paintings/painting11.jpg"></a>
                         <a class="carousel-item" href="#four"><img src="assets/portraits/portrait6.jpg"></a>
@@ -98,7 +110,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <p class="title center grey-text text-lighten-4">developed by <a class="btn black white-text" href="https://github.com/sarangravindra">Sarang Ravindra</a></p>
+                    <p class="title center white-text text-lighten-4">developed by <a class="black white-text" href="https://github.com/sarangravindra">Sarang Ravindra</a></p>
                 </div>
             </div>
         </div>
